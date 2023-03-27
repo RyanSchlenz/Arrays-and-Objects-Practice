@@ -64,11 +64,6 @@ const books = [
   }
 ];
 
-/* ⚠️ YOU WILL CALL THE FUNCTIONS BELOW IN EXERCISES.
-     DON'T WORRY IF THEY DON'T MAKE SENSE FOR NOW.
-     YOU WILL LEARN EVERYTHING A BIT LATER IN THE COURSE.
-     FOR NOW TREAT THEM AS BLACK BOXES (focus on the values they return).
-     YOU CAN CALL THEM AND LOG THE RETURNED VALUE TO THE CONSOLE TO SEE WHAT EXACTLY THEY RETURN. */
 
 const getBooksByGenre = genre => books.filter(book => book.genres.includes(genre));
 const getBooksAsArrays = () => books.map(book => Object.entries(book));
